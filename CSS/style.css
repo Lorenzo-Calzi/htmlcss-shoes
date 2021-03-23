@@ -18,7 +18,7 @@ header{
     width: 100%;
 }
 
-.container{
+.container_first{
     height:100vh;
     background-color: rgba(255, 0, 0, 1);
     position: relative;
@@ -48,5 +48,27 @@ header{
     padding: 10px;
     text-align: center;
 }
+
+.container_second{
+    height:100vh;
+    background-color: rgba(0, 128, 0, 1);
+    position: relative;
+}
+
+.container_third{
+    height:100vh;
+    background-color: rgba(255, 255, 0, 1);
+    position: relative; 
+}
+
+.title_third{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 128, 0, 1); 
+}
+
+
 
 
